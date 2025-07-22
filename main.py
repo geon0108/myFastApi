@@ -11,3 +11,7 @@ def read_root():
 @app.get("/sex")
 def read_root():
     return {"Hello": "sex"}
+
+@app.get("/dd")
+def read_root():
+    return {"dd":"ss"}
