@@ -15,5 +15,3 @@ def read_root():
 @app.get("/dd")
 def read_root():
     return {"dd":"ss"}
-
-dadad
